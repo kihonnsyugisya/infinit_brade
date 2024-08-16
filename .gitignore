@@ -70,3 +70,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# FeelDemosディレクトリを無視
+/[Aa]ssets/Feel/FeelDemos/
+/[Aa]ssets/Feel/MMFeedbacks/Demos/MMFeedbacksDemo
+/[Aa]ssets/Feel/MMFeedbacks/Demos/SequencingDemo
+/[Aa]ssets/Feel/MMTools/Demos
+/[Aa]ssets/Feel/NiceVibrations/Demo
+/[Aa]ssets/Feel/NiceVibrations/HapticSamples
