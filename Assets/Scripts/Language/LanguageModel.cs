@@ -15,18 +15,11 @@ public class LanguageModel : MonoBehaviour
     {
         { SystemLanguage.Japanese, Language.ja }, // 日本語
         { SystemLanguage.English, Language.en }, // 英語
-        { SystemLanguage.Chinese, Language.zh }, // 中国
-        { SystemLanguage.ChineseSimplified, Language.zh }, // 中国
-        { SystemLanguage.ChineseTraditional, Language.zh }, // 中国
-        { SystemLanguage.Hindi, Language.hi }, // インド
-        { SystemLanguage.Indonesian, Language.id }, // インドネシア
-        { SystemLanguage.Belarusian, Language.bz }, // ブラジル
         { SystemLanguage.Russian, Language.ru }, // ロシア語
-
-        //{ SystemLanguage.Spanish, Language.es }, // スペイン語
-        //{ SystemLanguage.French, Language.fr }, // フランス語
-        //{ SystemLanguage.German, Language.de }, // ドイツ語
-        //{ SystemLanguage.Portuguese, Language.pt }, // ポルトガル語
+        { SystemLanguage.Spanish, Language.es }, // スペイン語
+        { SystemLanguage.French, Language.fr }, // フランス語
+        { SystemLanguage.German, Language.de }, // ドイツ語
+        { SystemLanguage.Portuguese, Language.pt }, // ポルトガル語
     };
 
 
