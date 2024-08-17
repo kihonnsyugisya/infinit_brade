@@ -18,11 +18,11 @@ namespace GoogleMobileAds.Sample
 
         private InterstitialAd _interstitialAd;
 
-        public BoolReactiveProperty isReady = new();
-        public BoolReactiveProperty isAdClosed = new();
-        public static bool isClickAd = false;
+        [HideInInspector] public BoolReactiveProperty isReady = new();
+        [HideInInspector] public BoolReactiveProperty isAdClosed = new();
+        [HideInInspector] public static bool isClickAd = false;
 
-        public bool isSkipAd = false;
+        [HideInInspector] public bool isSkipAd = false;
 
         protected override void Initialize()
         {
