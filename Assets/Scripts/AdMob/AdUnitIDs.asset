@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d720df719f3da4ed5b0add36c6064075, type: 3}
+  m_Name: AdUnitIDs
+  m_EditorClassIdentifier: 
+  isTest: 0
+  bannerIOS: ca-app-pub-3957084734439209/4975869120
+  bannerAndroid: ca-app-pub-3957084734439209/8893699308
+  testBannerIOS: ca-app-pub-3940256099942544/2934735716
+  testBannerAndroid: ca-app-pub-3940256099942544/6300978111
+  interstitialIOS: ca-app-pub-3957084734439209/8337164095
+  interstitialAndroid: ca-app-pub-3957084734439209/7584487064
+  testInterstitialIOS: ca-app-pub-3940256099942544/4411468910
+  testInterstitialAndroid: ca-app-pub-3940256099942544/1033173712
+  rewardIOS: ca-app-pub-3957084734439209/1232065232
+  rewardAndroid: ca-app-pub-3957084734439209/4717299504
+  testRewardIOS: ca-app-pub-3940256099942544/1712485313
+  testRewardAndroid: ca-app-pub-3940256099942544/5224354917
+  appOpenIOS: 'ca-app-pub-3957084734439209/9917839073 '
+  appOpenAndroid: ca-app-pub-3957084734439209/2091136169
+  testAppOpenIOS: ca-app-pub-3940256099942544/5575463023
+  testAppOpenAndroid: ca-app-pub-3940256099942544/9257395921
