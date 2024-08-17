@@ -78,3 +78,6 @@ crashlytics-build.properties
 /[Aa]ssets/Feel/MMTools/Demos
 /[Aa]ssets/Feel/NiceVibrations/Demo
 /[Aa]ssets/Feel/NiceVibrations/HapticSamples
+
+# SkeletonWarrior
+/[Aa]ssets/SkeletonWarrior/
