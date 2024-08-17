@@ -15,11 +15,18 @@ public class LanguageModel : MonoBehaviour
     {
         { SystemLanguage.Japanese, Language.ja }, // 日本語
         { SystemLanguage.English, Language.en }, // 英語
-        { SystemLanguage.Spanish, Language.es }, // スペイン語
-        { SystemLanguage.French, Language.fr }, // フランス語
-        { SystemLanguage.German, Language.de }, // ドイツ語
-        { SystemLanguage.Portuguese, Language.pt }, // ポルトガル語
+        { SystemLanguage.Chinese, Language.zh }, // 中国
+        { SystemLanguage.ChineseSimplified, Language.zh }, // 中国
+        { SystemLanguage.ChineseTraditional, Language.zh }, // 中国
+        { SystemLanguage.Hindi, Language.hi }, // インド
+        { SystemLanguage.Indonesian, Language.id }, // インドネシア
+        { SystemLanguage.Belarusian, Language.bz }, // ブラジル
         { SystemLanguage.Russian, Language.ru }, // ロシア語
+
+        //{ SystemLanguage.Spanish, Language.es }, // スペイン語
+        //{ SystemLanguage.French, Language.fr }, // フランス語
+        //{ SystemLanguage.German, Language.de }, // ドイツ語
+        //{ SystemLanguage.Portuguese, Language.pt }, // ポルトガル語
     };
 
 
@@ -89,7 +96,7 @@ public class LanguageModel : MonoBehaviour
     }
 
     /// <summary>
-    /// ロードされた言語を反映し、ロケールを変更する非同期メソッド。
+    /// ロードされた言語を反映し、ロケールを変更する非同期メソッド。これをとりあえず最初に読んでおけばなんとかなる。
     /// ロードされた言語はプレイヤーの選択により保存された言語を取得し、現在の言語として設定します。
     /// ロケールの変更はUnityのローカライズシステムを使用し、言語に応じたテキストやリソースの表示を切り替えます。
     /// ロードに失敗した場合はデバイスの言語を使用してロケールを変更します。
