@@ -11,3 +11,36 @@ public enum Language
     pt = 5, // ポルトガル語
     ru = 6, // ロシア語
 }
+
+/// <summary>
+/// プレーヤーの攻撃の種類
+/// </summary>
+public enum Attacks
+{
+    SLASH_L,
+    SLASH_R,
+    KICK,
+    TUKI,
+    LOWER,
+    UPPER
+}
+
+/// <summary>
+/// 刀プレーヤの攻撃の種類
+/// </summary>
+public enum KatanaAttacks
+{
+    L_TO_R,
+    R_TO_L,
+    UPPER,
+    LOWER,
+    KICK,
+    DODGE_L,
+    DODGE_R
+}
+
+public enum Dodges
+{
+    LEFT,
+    RIGHT
+}
