@@ -1,31 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-String-Tables-Portuguese (Brazil) (pt-BR)
-  m_EditorClassIdentifier: 
-  m_GroupName: Localization-String-Tables-Portuguese (Brazil) (pt-BR)
-  m_Data:
-    m_SerializedData: []
-  m_GUID: 3780cc86954c840ccbdc618edb5d764b
-  m_SerializeEntries:
-  - m_GUID: 30e8d851b29b745eaa184700d99cbdb2
-    m_Address: MetaData_pt-BR
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-pt-BR
-    FlaggedDuringContentUpdateRestriction: 0
-  m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 95252ad25e0db4c84b0477390a02db40, type: 2}
-  m_SchemaSet:
-    m_Schemas:
-    - {fileID: 11400000, guid: c4f02cde4185a4404bec1ecae6f96e89, type: 2}
-    - {fileID: 11400000, guid: ea8c85ce36ef54546b7e65aee843ef62, type: 2}
+version https://git-lfs.github.com/spec/v1
+oid sha256:734cbd7afffdb2721f51e9c46e589a2c771c9a8931de52ce8a1a9d133ab96fb2
+size 1070

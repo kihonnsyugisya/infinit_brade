@@ -1,25 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-String-Tables-Indonesian (Indonesia) (id-ID)
-  m_EditorClassIdentifier: 
-  m_GroupName: Localization-String-Tables-Indonesian (Indonesia) (id-ID)
-  m_Data:
-    m_SerializedData: []
-  m_GUID: a3c6a5ceba49347f59b9ee6266966ba5
-  m_SerializeEntries: []
-  m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 95252ad25e0db4c84b0477390a02db40, type: 2}
-  m_SchemaSet:
-    m_Schemas:
-    - {fileID: 11400000, guid: 849306d9f9e9341329bea03bdceb3d67, type: 2}
-    - {fileID: 11400000, guid: 97dfe0fd61731410f9c5c81fea3d8a79, type: 2}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8755b2e38f46ab1033205f0b4061afb084110f37a495429883f6013f1d2051a9
+size 898

@@ -1,31 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-String-Tables-Russian (Russia) (ru-RU)
-  m_EditorClassIdentifier: 
-  m_GroupName: Localization-String-Tables-Russian (Russia) (ru-RU)
-  m_Data:
-    m_SerializedData: []
-  m_GUID: 6ba7479b01a5a40da9c0e5f722dd4b3f
-  m_SerializeEntries:
-  - m_GUID: 33d90f6eab1cb4945b38f995fdeffa02
-    m_Address: MetaData_ru-RU
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-ru-RU
-    FlaggedDuringContentUpdateRestriction: 0
-  m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 95252ad25e0db4c84b0477390a02db40, type: 2}
-  m_SchemaSet:
-    m_Schemas:
-    - {fileID: 11400000, guid: 34e58ed2166fe4e7896dd323b1e673a3, type: 2}
-    - {fileID: 11400000, guid: 7e492cc298ed842c6bbd663c676c9928, type: 2}
+version https://git-lfs.github.com/spec/v1
+oid sha256:005969ab2f2b27f88f058de6c521fd77b096f55b39f4321e3965623acbebf604
+size 1064
