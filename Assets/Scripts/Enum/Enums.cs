@@ -44,3 +44,16 @@ public enum Dodges
     LEFT,
     RIGHT
 }
+
+public enum DashActionType
+{
+    DASH_ATTACK,
+}
+
+public enum ZombieMotion
+{
+    Attack,
+    AttackL,
+    AttackR,
+    Run
+}
