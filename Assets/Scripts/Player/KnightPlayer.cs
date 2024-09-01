@@ -4,6 +4,8 @@ using UnityEngine;
 using Cinemachine;
 using MoreMountains.Feedbacks;
 using UniRx;
+using System.Linq;
+using System;
 
 public class KnightPlayer : MonoBehaviour
 {
@@ -17,6 +19,7 @@ public class KnightPlayer : MonoBehaviour
     {
         cinemachineTransposer = cinemachineVirtualCamera.GetCinemachineComponent<CinemachineTransposer>();
         animator = attackFeedback.GetFeedbackOfType<MMF_Animation>().BoundAnimator;
+        animatorAttackStateTracker = new(animator);
     }
 
     // Update is called once per frame
@@ -25,6 +28,7 @@ public class KnightPlayer : MonoBehaviour
         
     }
 
+    // ------------- 移動（左スティク）-------------------------------------------------------
 
     [Range(2.0f, 4.0f)]
     [SerializeField] private float moveSpeed;
@@ -70,6 +74,8 @@ public class KnightPlayer : MonoBehaviour
 
 
 
+    // ------------- 回転（右スティク）-------------------------------------------------------
+
     [Range(1f, 2.0f)]
     [SerializeField] private float horizontalRotateSpeed;
 
@@ -106,13 +112,71 @@ public class KnightPlayer : MonoBehaviour
     }
 
 
+
+
+    // ------------- 攻撃（ボタン）-------------------------------------------------------
+
+    /// <summary>
+    /// 攻撃ボタンを押すと反応する
+    /// </summary>
     [SerializeField] private MMF_Player attackFeedback;
+
+    /// <summary>
+    /// 攻撃ボタンを押した時に、ステートの状態がDash_Attack_ver_Bならこれもセットで反応する
+    /// 当たり判定の制御と、エフェクト、効果音を出す
+    /// </summary>
+    [SerializeField] private MMF_Player attackDAFeedback;
+
+    /// <summary>
+    /// 攻撃ボタンを押した時に、ステートの状態がAttack_4Combo_1_Inplaceならこれもセットで反応する
+    /// 当たり判定の制御と、エフェクト、効果音を出す
+    /// </summary>
+    [SerializeField] private MMF_Player attackCombo1Feedback;
+
+    /// <summary>
+    /// 攻撃ボタンを押した時に、ステートの状態がAttack_4Combo_2_Inplaceならこれもセットで反応する
+    /// 当たり判定の制御と、エフェクト、効果音を出す
+    /// </summary>
+    [SerializeField] private MMF_Player attackCombo2Feedback;
+
+    /// <summary>
+    /// 攻撃ボタンを押した時に、ステートの状態がAttack_4Combo_3_Inplaceならこれもセットで反応する
+    /// 当たり判定の制御と、エフェクト、効果音を出す
+    /// </summary>
+    [SerializeField] private MMF_Player attackCombo3Feedback;
+
+    /// <summary>
+    /// 攻撃ボタンを押した時に、ステートの状態がAttack_4Combo_1_Inplaceならこれもセットで反応する
+    /// 当たり判定の制御と、エフェクト、効果音を出す
+    /// </summary>
+    [SerializeField] private MMF_Player attackCombo4Feedback;
+
+
+    private AnimatorAttackStateTracker animatorAttackStateTracker;
 
     public void Attack()
     {
-        //アニメーションステイトか数値をとってダッシュ状態か判定して、ダッシュ中ならDAのfeedback呼ぶ
+        // アニメーションステートに基づいてフィードバックを再生
         attackFeedback.PlayFeedbacks();
+
+        // アニメーションステートを取得
+        var playerAttackState = animatorAttackStateTracker.GetCurrentAttackAnimationState();
+
+        // アニメーションステートに基づくフィードバックの選択
+        Action feedbackAction = playerAttackState switch
+        {
+            PlayerAttackState.Dash_Attack_ver_B => attackDAFeedback.PlayFeedbacks,
+            PlayerAttackState.Attack_4Combo_1_Inplace => attackCombo1Feedback.PlayFeedbacks,
+            PlayerAttackState.Attack_4Combo_2_Inplace => attackCombo2Feedback.PlayFeedbacks,
+            PlayerAttackState.Attack_4Combo_3_Inplace => attackCombo3Feedback.PlayFeedbacks,
+            PlayerAttackState.Attack_4Combo_4_Inplace => attackCombo4Feedback.PlayFeedbacks,
+            _ => attackCombo1Feedback.PlayFeedbacks // デフォルト
+        };
+
+        // フィードバックアクションを実行
+        feedbackAction();
     }
+
 
     [SerializeField] private DashAciton dashAciton;
 
@@ -128,5 +192,5 @@ public class KnightPlayer : MonoBehaviour
         }
     }
 
-    
+
 }

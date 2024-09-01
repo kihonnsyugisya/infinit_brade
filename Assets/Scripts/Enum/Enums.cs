@@ -57,3 +57,17 @@ public enum ZombieMotion
     AttackR,
     Run
 }
+
+/// <summary>
+/// プレーヤのアニメータのステートの名前
+/// 今のステートの状態を取得するときにこれと一致してるか比較して使うので
+/// アニメーションのステイトに変更を加える場合ここにも変更を加えること
+/// </summary>
+public enum PlayerAttackState
+{
+    Dash_Attack_ver_B,
+    Attack_4Combo_1_Inplace,
+    Attack_4Combo_2_Inplace,
+    Attack_4Combo_3_Inplace,
+    Attack_4Combo_4_Inplace
+}

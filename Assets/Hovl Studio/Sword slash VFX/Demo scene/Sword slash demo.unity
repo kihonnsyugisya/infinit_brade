@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword Slash 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1011157772751556, guid: ca63c6ac7458764498741e0306f78528, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4764711410696670, guid: ca63c6ac7458764498741e0306f78528, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -286,6 +290,10 @@ PrefabInstance:
     - target: {fileID: 1840690549904964, guid: a8a6ba91edbeef2439175ecf0e08e6fb, type: 3}
       propertyPath: m_Name
       value: Sword Slash 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840690549904964, guid: a8a6ba91edbeef2439175ecf0e08e6fb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4851922120147866, guid: a8a6ba91edbeef2439175ecf0e08e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -555,6 +563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword Slash 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1044528419629608, guid: 3be98662c9e7ef5468cb9c4e11010dc7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4513172908254008, guid: 3be98662c9e7ef5468cb9c4e11010dc7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -651,6 +663,10 @@ PrefabInstance:
     - target: {fileID: 1893723492503102, guid: bf9f848a24682054e9fddc30f1184e46, type: 3}
       propertyPath: m_Name
       value: Sword Slash 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893723492503102, guid: bf9f848a24682054e9fddc30f1184e46, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4617582033220906, guid: bf9f848a24682054e9fddc30f1184e46, type: 3}
       propertyPath: m_LocalPosition.x
@@ -768,6 +784,10 @@ PrefabInstance:
     - target: {fileID: 1893033738566276, guid: 3e04efdf8ee665d48962b33b06e8e3d3, type: 3}
       propertyPath: m_Name
       value: Prick 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893033738566276, guid: 3e04efdf8ee665d48962b33b06e8e3d3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4895772533199642, guid: 3e04efdf8ee665d48962b33b06e8e3d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -906,6 +926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prick 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1610259402245616, guid: 09a2baab97fbf474f9499bf610686e4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4498375225019196, guid: 09a2baab97fbf474f9499bf610686e4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1028,6 +1052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword Slash 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1996079926692674, guid: fb101b1453aec9747a5ed7244075b1a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4522704683574406, guid: fb101b1453aec9747a5ed7244075b1a2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1110,6 +1138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword Slash 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1236453127613114, guid: bfbc37d0bc0e8ff4082a8b2894b3a486, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4025056114521242, guid: bfbc37d0bc0e8ff4082a8b2894b3a486, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1191,6 +1223,10 @@ PrefabInstance:
     - target: {fileID: 1789270911803724, guid: 3f0def245cefa134c838d34a7f6d2556, type: 3}
       propertyPath: m_Name
       value: Sword Slash 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789270911803724, guid: 3f0def245cefa134c838d34a7f6d2556, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4256832973525540, guid: 3f0def245cefa134c838d34a7f6d2556, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1303,6 +1339,10 @@ PrefabInstance:
     - target: {fileID: 1919708242137258, guid: e60d36cff17a1ce4db49ef54f9e72f61, type: 3}
       propertyPath: m_Name
       value: Sword Slash 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919708242137258, guid: e60d36cff17a1ce4db49ef54f9e72f61, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4362472259802890, guid: e60d36cff17a1ce4db49ef54f9e72f61, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1481,6 +1521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword Slash 9
       objectReference: {fileID: 0}
+    - target: {fileID: 1130446560849736, guid: c4d564b5d4682ad46b8621f0fa6f40d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4582690613557926, guid: c4d564b5d4682ad46b8621f0fa6f40d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1567,6 +1611,10 @@ PrefabInstance:
     - target: {fileID: 1294101409476956, guid: 231e3be01ac50c047bb16d07fd8d2ba5, type: 3}
       propertyPath: m_Name
       value: Sword Slash 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294101409476956, guid: 231e3be01ac50c047bb16d07fd8d2ba5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4775681412446352, guid: 231e3be01ac50c047bb16d07fd8d2ba5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1669,6 +1717,10 @@ PrefabInstance:
     - target: {fileID: 1942681157837952, guid: 5153725f7adb4cf47952f6201f4ee095, type: 3}
       propertyPath: m_Name
       value: Sword Slash 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1942681157837952, guid: 5153725f7adb4cf47952f6201f4ee095, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4036179291501026, guid: 5153725f7adb4cf47952f6201f4ee095, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1791,6 +1843,10 @@ PrefabInstance:
     - target: {fileID: 1485466043327710, guid: 3e914ef784028124db1daf7002a87cc8, type: 3}
       propertyPath: m_Name
       value: Sword Slash 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485466043327710, guid: 3e914ef784028124db1daf7002a87cc8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4144931221060082, guid: 3e914ef784028124db1daf7002a87cc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2094,6 +2150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword Slash 15
       objectReference: {fileID: 0}
+    - target: {fileID: 1644958980890870, guid: 5e841c48be9318145af9204a7658cc2e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4003501900367752, guid: 5e841c48be9318145af9204a7658cc2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2290,6 +2350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prick 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1200950891393156, guid: 52a726355873f9443b626e837ef94008, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4982279646968274, guid: 52a726355873f9443b626e837ef94008, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2407,6 +2471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword Slash 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1872147318604286, guid: 5bea49531fc500c408823a2e2863106f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4600120975325910, guid: 5bea49531fc500c408823a2e2863106f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2498,6 +2566,10 @@ PrefabInstance:
     - target: {fileID: 1645009922904612, guid: 5e3170c6ef0f014409bd7423e3bb805a, type: 3}
       propertyPath: m_Name
       value: Sword Slash 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645009922904612, guid: 5e3170c6ef0f014409bd7423e3bb805a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4581577506549284, guid: 5e3170c6ef0f014409bd7423e3bb805a, type: 3}
       propertyPath: m_LocalPosition.x
