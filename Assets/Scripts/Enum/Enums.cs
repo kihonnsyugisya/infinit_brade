@@ -58,6 +58,18 @@ public enum ZombieMotion
     Run
 }
 
+public enum ZombieDameged
+{
+    KnockDown,
+    KnockDown2,
+    KnockDown3
+}
+
+public enum MummyMotion
+{
+    JumpAttack
+}
+
 /// <summary>
 /// プレーヤのアニメータのステートの名前
 /// 今のステートの状態を取得するときにこれと一致してるか比較して使うので
